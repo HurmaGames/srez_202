@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-logo">
+                <img src="assets/media/Logo.png" alt="" class="header-logo-image">
+            </div>
+            <nav class="header-nav">
+                <div class="header-nav-menu">
+                    <button class="header-nav-btn vklad-menu-btn1" onclick="menu1()">
+                        Home
+                    </button>
+                    <div class="header-nav-block vklad-menu1">
+                        <p>home1</p>
+                    </div>
+                </div>
+                <div class="header-nav-menu" >
+                    <button class="header-nav-btn vklad-menu-btn2" onclick="menu2()">
+                        About
+                    </button>
+                    <div class="header-nav-block vklad-menu2" >
+                        <p>about1</p>
+                    </div>
+                </div>
+                <div class="header-nav-menu" >
+                    <button class="header-nav-btn vklad-menu-btn3" onclick="menu3()">
+                        Team
+                    </button>
+                    <div class="header-nav-block vklad-menu3">
+                        <p>team1</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container banner-container">
+            <h1 class="title banner-title">
+                Our Testimonials
+            </h1>
+            <div class="banner-descr">
+                Our satisfied clients share their success stories and experiences on their journey to better health and well-being.
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container feedback-container">
+            <div class="feedback-block block--active" id="slide1">
+                <div class="feedback-top">
+                    <p class="feedback-descr">I can't thank Nutritionist enough for their personalized nutrition coaching. It has completely transformed my approach to food and helped me shed those extra pounds. Highly recommended!</p>
+                </div>
+                <div class="feedback-bottom">
+                    <img src="assets/media/Image.png" alt="" class="feedback-image">
+                    <p class="feedback-name">
+                        Jennifer Anderson
+                    </p>
+                </div>
+            </div>
+            <div class="feedback-block" id="slide2">
+                <div class="feedback-top">
+                    <p class="feedback-descr">Nutritionist has been a game-changer for me. The expert guidance and support I received from their team made my weight loss journey so much easier. Thank you!</p>
+                </div>
+                <div class="feedback-bottom">
+                    <img src="assets/media/Image2.png" alt="" class="feedback-image">
+                    <p class="feedback-name">
+                        Robert Johnson
+                    </p>
+                </div>
+            </div>
+            <div class="feedback-nav">
+                <div class="feedback-btns">
+                    <button class="feedback-prev" onclick="prev()">
+                        <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.25 1.5L1.75 10L10.25 18.5" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                        
+                    </button>
+                    <button class="feedback-pag pag--active" id="pag1" onclick="pag1()"></button>
+                    <button class="feedback-pag" id="pag2" onclick="pag2()"></button>
+                    <button class="feedback-next" onclick="prev()">
+                        <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.25 1.5L1.75 10L10.25 18.5" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                        
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="vklad">
+        <div class="vklad_title">
+            <h2>Our Pricing</h2>
+            <p>We outline our flexible and affordable options to support you on your journey to optimal health and nutrition. We believe that <br> everyone deserves access to personalized nutrition guidance and resources</p>
+        </div>
+        <div class="vklad_btn">
+            <button class="tab-btn active">Monthly</button>
+            <button class="tab-btn">Yearly</button>
+        </div>
+        <p>Save 50% on Yearly</p>
+        <div class="tab-pane active">
+            <div class="tovars">
+                <div class="tovar__vklad">
+                    <div class="tovar__top">
+                        <h3>Basic Plan</h3>
+                        <p>Up to 50% off on Yearly Plan</p>
+                    </div>
+                    <div>
+                        <p>Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.</p>
+                    </div>
+                    <div class="medium">
+                        <h3>$49</h3>
+                        <p>/month</p>
+                    </div>
+                    <div class="button_tovar"><button>Choose Plan</button></div>
+                </div>
+                <div class="tovar__vklad">
+                    <div class="tovar__top">
+                        <h3>Basic Plan</h3>
+                        <p>Up to 50% off on Yearly Plan</p>
+                    </div>
+                    <div>
+                        <p>Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.</p>
+                    </div>
+                    <div class="medium">
+                        <h3>$49</h3>
+                        <p>/month</p>
+                    </div>
+                    <div class="button_tovar"><button>Choose Plan</button></div>
+                </div>
+                <div class="tovar__vklad">
+                    <div class="tovar__top">
+                        <h3>Basic Plan</h3>
+                        <p>Up to 50% off on Yearly Plan</p>
+                    </div>
+                    <div>
+                        <p>Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.</p>
+                    </div>
+                    <div class="medium">
+                        <h3>$49</h3>
+                        <p>/month</p>
+                    </div>
+                    <div class="button_tovar"><button>Choose Plan</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane">
+            <div class="tovars">
+                <div class="tovar__vklad">
+                    <div class="tovar__top">
+                        <h3>Basic Plan</h3>
+                        <p>Up to 50% off on Yearly Plan</p>
+                    </div>
+                    <div>
+                        <p>Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.</p>
+                    </div>
+                    <div class="medium">
+                        <h3>$294</h3>
+                        <p>/month</p>
+                    </div>
+                    <div class="button_tovar"><button>Choose Plan</button></div>
+                </div>
+                <div class="tovar__vklad">
+                    <div class="tovar__top">
+                        <h3>Basic Plan</h3>
+                        <p>Up to 50% off on Yearly Plan</p>
+                    </div>
+                    <div>
+                        <p>Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.</p>
+                    </div>
+                    <div class="medium">
+                        <h3>$474</h3>
+                        <p>/month</p>
+                    </div>
+                    <div class="button_tovar"><button>Choose Plan</button></div>
+                </div>
+                <div class="tovar__vklad">
+                    <div class="tovar__top">
+                        <h3>Basic Plan</h3>
+                        <p>Up to 50% off on Yearly Plan</p>
+                    </div>
+                    <div>
+                        <p>Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.</p>
+                    </div>
+                    <div class="medium">
+                        <h3>$594</h3>
+                        <p>/month</p>
+                    </div>
+                    <div class="button_tovar"><button>Choose Plan</button></div>
+                </div>
+            </div>
+        </div>
+       
+    <section class="faq">
+        <a href="" class="faq-link">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 5C1.5 3.34315 2.84315 2 4.5 2H5.87163C6.732 2 7.48197 2.58556 7.69064 3.42025L8.79644 7.84343C8.97941 8.5753 8.70594 9.34555 8.10242 9.79818L6.8088 10.7684C6.67447 10.8691 6.64527 11.0167 6.683 11.1197C7.81851 14.2195 10.2805 16.6815 13.3803 17.817C13.4833 17.8547 13.6309 17.8255 13.7316 17.6912L14.7018 16.3976C15.1545 15.7941 15.9247 15.5206 16.6566 15.7036L21.0798 16.8094C21.9144 17.018 22.5 17.768 22.5 18.6284V20C22.5 21.6569 21.1569 23 19.5 23H17.25C8.55151 23 1.5 15.9485 1.5 7.25V5Z" fill="#CBEA7B"/>
+            </svg>
+            +7(967)-(124)-76-87</a>
+        <div class="faq-container">
+            <h2 class="faq-title">
+                FAQ
+            </h2>
+            <div class="faq-descr">
+                We address commonly asked questions and provide comprehensive answers to help you navigate your way through your nutrition and wellness journey.
+            </div>
+        </div>
+    </section>
+    <section class="accard">
+        <div class="container accard-container">
+            <div class="accard-content">
+                <button class="accard-block" onclick="click1()">
+                    <div class="accard-text">
+                        <div class="accard-question">
+                            What is personalized nutrition coaching?
+                        </div>
+                        <div class="accard-otvet" id="otvet1">
+                            Personalized nutrition coaching involves creating a customized nutrition plan based on your unique goals, preferences, and dietary requirements. Our team of experts will work closely with you to develop a plan that fits your lifestyle and helps you achieve optimal health and wellness.
+                        </div>
+                    </div>
+                    <img src="assets/media/Icon.svg" alt="" class="accard-image">
+                </button>
+                <button class="accard-block" onclick="click2()">
+                    <div class="accard-text">
+                        <div class="accard-question">
+                            How can nutrition coaching help me lose weight?
+                        </div>
+                        <div class="accard-otvet" id="otvet2">
+                            Thus, the advantage of psychotherapy as an effective way to lose weight is to solve the problem of excess weight not only at the level of the stomach and body, but also at the level of consciousness, subconsciousness and unconsciousness, which in fact and control the metabolic processes, the processes of saturation and recovery of the body.                        </div>
+                    </div>
+                    <img src="assets/media/Icon.svg" alt="" class="accard-image">
+                </button>
+                <button class="accard-block" onclick="click3()">
+                    <div class="accard-text">
+                        <div class="accard-question">
+                            Can I still enjoy my favorite foods while on a nutrition plan?
+                        </div>
+                        <div class="accard-otvet" id="otvet3">
+                            Personalized nutrition coaching involves creating a customized nutrition plan based on your unique goals, preferences, and dietary requirements. Our team of experts will work closely with you to develop a plan that fits your lifestyle and helps you achieve optimal health and wellness.
+                        </div>
+                    </div>
+                    <img src="assets/media/Icon.svg" alt="" class="accard-image">
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- modal --> 
+    <div id="myModal" class="modal"> 
+        <div class="modal-content"> 
+            <span class="close">&times;</span> 
+            <div class="modal-info"> 
+                <div class="modal-box"> 
+                    <img src="assets/media/email.png" alt=""> 
+                    <i class="fas fa-envelope"></i> 
+                    <p style=" 
+                    color: white; 
+                ">support@nutritionist.com</p> 
+                </div> 
+                <div class="modal-box"> 
+                    <img src="assets/media/tel.png" alt=""> 
+                    <i class="fas fa-phone-alt"></i> 
+                    <p style=" 
+                    color: white; 
+                ">+7(907)-624-76-87</p> 
+                </div> 
+                <div class="modal-box"> 
+                    <img src="assets/media/map.png" alt=""> 
+                    <i class="fas fa-map-marker-alt"></i> 
+                    <p style=" 
+                    color: white; 
+                ">Somewhere in the World</p> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
